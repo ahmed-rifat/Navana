@@ -1,12 +1,19 @@
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: white;
+
 }
+.dark-mode {
+    background-color: black;
+  }
 
 :root {
     --light-grey: #e0e0e0;
     --dark-grey: #606060;
     --red-bg: #da1e5d;
 }
+
+
 .layout1{
 width: 157.27px;
 height: 64px;
@@ -33,10 +40,14 @@ border-radius: 14px;
 }
 
 /* card design for layout 1 */
-.cardDesign1{
+.card1box{
+    display: grid;
+    grid-template-columns: none;
     margin-top: 28px;
     margin-left: 64px;
-    width: 1200px;
+    margin-right: 64px;
+}
+.card1Design1{
     height: 150px;
     background-color: #DA1E5D;
     border-radius: 14px;
@@ -52,14 +63,7 @@ border-radius: 14px;
     display: inline-block;
 
 }
-.cardDesign2{
-width: 1200px;
-height: 150px;
-margin-left: 64px;
-margin-top: 51px;
-background: #DA1E5D;
-border-radius: 14px;
-}
+
 .cardDesign2text{
     margin-top: 62px;
     display: inline-block;
@@ -71,15 +75,7 @@ border-radius: 14px;
     margin-left: 570px;
 
 }
-.cardDesign3{
-width: 1200px;
-height: 150px;
-margin-left: 64px;
-margin-top: 51px;
 
-background: #DA1E5D;
-border-radius: 14px;
-}
 .cardDesign3text{
     margin-top: 62px;
     display: inline-block;
@@ -91,14 +87,7 @@ border-radius: 14px;
     margin-left: 570px;
 
 }
-.cardDesign4{
-    width: 1200px;
-    height: 150px;
-    margin-left: 64px;
-    margin-top: 51px;
-    background: #DA1E5D;
-    border-radius: 14px;
-}
+
 .cardDesign4text{
     margin-top: 62px;
     display: inline-block;
@@ -110,14 +99,7 @@ border-radius: 14px;
     margin-left: 570px;
 
 }
-.cardDesign5{
-    width: 1200px;
-    height: 150px;
-    margin-left: 63px;
-    margin-top: 51px;
-    background: #DA1E5D;
-    border-radius: 14px;
-}
+
 .cardDesign5text{
     margin-top: 62px;
     display: inline-block;
@@ -128,4 +110,50 @@ border-radius: 14px;
     height: 26px;
     margin-left: 570px;
 
+}
+
+/* card2 design */
+.card2Design1{
+width: 350px;
+height: 300px;
+background: #DA1E5D;
+border-radius: 14px;
+}
+
+.card2box{
+    margin-top: 28px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* card3 design */
+
+
+.card3Midbox{
+    display: flex;
+    margin-left: 64px;
+    margin-top: 43px;
+    
+}
+.card3Design1{
+width: 300px;
+height: 419px;
+
+background-color: #DA1E5D;
+border-radius: 14px;
+}
+.card3Design2{
+    width: 526px;
+    height: 419px;
+    background-color: #DA1E5D;
+    border-radius: 14px;
+    margin-left: 50px;
+    margin-right: 45px;
+}
+.card3Design3{
+    width: 300px;
+    height: 419px;
+    background-color: #DA1E5D;
+    border-radius: 14px;
 }

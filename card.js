@@ -1,3 +1,11 @@
+// body light dark start
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+// body light dark End
+
+
 document.getElementById('cardOne').style.display ='block';
 document.getElementById('cardTwo').style.display ='none';
 document.getElementById('cardThree').style.display ='none';
