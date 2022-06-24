@@ -12,25 +12,120 @@ width: 157.27px;
 height: 64px;
 margin-left: 64px;
 margin-top: 81px;
-position: absolute;
 background-color: #E0E0E0;
 border-radius: 14px;
 }
 .layout2{
 width: 157.27px;
 height: 64px;
+margin-left: 7.1px;
 margin-top: 81px;
-margin-left: 228.37px;
-position: absolute;
 background-color: #E0E0E0;
 border-radius: 14px;
 }
 .layout3{
 width: 157.27px;
 height: 64px;
-margin-left: 392.73px;
+margin-left: 7.1px;
 margin-top: 81px;
-position: absolute;
 background-color: #E0E0E0;
 border-radius: 14px;
+}
+
+/* card design for layout 1 */
+.cardDesign1{
+    margin-top: 28px;
+    margin-left: 64px;
+    width: 1200px;
+    height: 150px;
+    background-color: #DA1E5D;
+    border-radius: 14px;
+}
+.cardDesign1text{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 92.2px;
+    height: 26px;
+    margin-left: 570px;
+    margin-top: 62px;
+    display: inline-block;
+
+}
+.cardDesign2{
+width: 1200px;
+height: 150px;
+margin-left: 64px;
+margin-top: 51px;
+background: #DA1E5D;
+border-radius: 14px;
+}
+.cardDesign2text{
+    margin-top: 62px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 92.2px;
+    height: 26px;
+    margin-left: 570px;
+
+}
+.cardDesign3{
+width: 1200px;
+height: 150px;
+margin-left: 64px;
+margin-top: 51px;
+
+background: #DA1E5D;
+border-radius: 14px;
+}
+.cardDesign3text{
+    margin-top: 62px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 92.2px;
+    height: 26px;
+    margin-left: 570px;
+
+}
+.cardDesign4{
+    width: 1200px;
+    height: 150px;
+    margin-left: 64px;
+    margin-top: 51px;
+    background: #DA1E5D;
+    border-radius: 14px;
+}
+.cardDesign4text{
+    margin-top: 62px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 92.2px;
+    height: 26px;
+    margin-left: 570px;
+
+}
+.cardDesign5{
+    width: 1200px;
+    height: 150px;
+    margin-left: 63px;
+    margin-top: 51px;
+    background: #DA1E5D;
+    border-radius: 14px;
+}
+.cardDesign5text{
+    margin-top: 62px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 92.2px;
+    height: 26px;
+    margin-left: 570px;
+
 }
