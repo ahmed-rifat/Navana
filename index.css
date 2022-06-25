@@ -15,7 +15,11 @@ body {
     --red-bg: #da1e5d;
 }
 
-
+.layoutText{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
 .layout1{
 width: 157.27px;
 height: 64px;
@@ -60,7 +64,6 @@ border-radius: 14px;
     color: #FFFFFF;
     width: 92.2px;
     height: 26px;
-    margin-left: 570px;
     margin-top: 62px;
     display: inline-block;
 
@@ -74,7 +77,6 @@ border-radius: 14px;
     color: #FFFFFF;
     width: 92.2px;
     height: 26px;
-    margin-left: 570px;
 
 }
 
@@ -86,7 +88,6 @@ border-radius: 14px;
     color: #FFFFFF;
     width: 92.2px;
     height: 26px;
-    margin-left: 570px;
 
 }
 
@@ -98,7 +99,6 @@ border-radius: 14px;
     color: #FFFFFF;
     width: 92.2px;
     height: 26px;
-    margin-left: 570px;
 
 }
 
@@ -110,7 +110,6 @@ border-radius: 14px;
     color: #FFFFFF;
     width: 92.2px;
     height: 26px;
-    margin-left: 570px;
 
 }
 
@@ -129,7 +128,6 @@ font-weight: 700;
 font-size: 22px;
 line-height: 26px;
 color: #FFFFFF;
-margin-left: 140px;
 margin-top: 130px;
 }
 
@@ -148,6 +146,7 @@ margin-top: 130px;
     margin-left: 64px;
     margin-top: 43px;
     
+    
 }
 .card3Design1text{
     display: inline-block;
@@ -157,7 +156,6 @@ margin-top: 130px;
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
-    margin-left: 115px;
     margin-top: 190px;
     }
     .card3Design3text{
@@ -168,7 +166,6 @@ margin-top: 130px;
         font-size: 22px;
         line-height: 26px;
         color: #FFFFFF;
-        margin-left: 230px;
         margin-top: 190px;
         }
 .card3Design1{
@@ -192,3 +189,22 @@ border-radius: 14px;
     background-color: #DA1E5D;
     border-radius: 14px;
 }
+
+
+/* responsive for mobile */
+@media only screen and (max-width: 600px) {
+    .card2box{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30px;
+
+    }
+
+    .card3Midbox{
+        margin-left: 10px;
+        
+    }
+    .layout1{
+        margin-left: 14px;
+        
+        }
+  }

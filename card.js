@@ -1,5 +1,5 @@
 // body light dark start
-function myFunction() {
+const myFunction=()=> {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
