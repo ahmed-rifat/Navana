@@ -7,6 +7,8 @@ body {
     background-color: black;
   }
 
+
+
 :root {
     --light-grey: #e0e0e0;
     --dark-grey: #606060;
@@ -119,6 +121,17 @@ height: 300px;
 background: #DA1E5D;
 border-radius: 14px;
 }
+.card2Design2text{
+display: inline-block;
+width: 67px;
+height: 26px;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+margin-left: 140px;
+margin-top: 130px;
+}
 
 .card2box{
     margin-top: 28px;
@@ -136,6 +149,28 @@ border-radius: 14px;
     margin-top: 43px;
     
 }
+.card3Design1text{
+    display: inline-block;
+    width: 67px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 115px;
+    margin-top: 190px;
+    }
+    .card3Design3text{
+        display: inline-block;
+        width: 67px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-left: 230px;
+        margin-top: 190px;
+        }
 .card3Design1{
 width: 300px;
 height: 419px;
